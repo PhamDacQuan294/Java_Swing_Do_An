@@ -129,7 +129,7 @@ public class Register extends javax.swing.JFrame {
         txtPassword1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         getContentPane().add(txtPassword1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 390, 430, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/first page background.PNG"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\first page background.PNG")); // NOI18N
         jLabel7.setText("p");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1360, 770));
 

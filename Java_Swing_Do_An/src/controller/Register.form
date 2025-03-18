@@ -274,7 +274,7 @@
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/first page background.PNG"/>
+          <Image iconType="2" name="C:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\first page background.PNG"/>
         </Property>
         <Property name="text" type="java.lang.String" value="p"/>
       </Properties>
