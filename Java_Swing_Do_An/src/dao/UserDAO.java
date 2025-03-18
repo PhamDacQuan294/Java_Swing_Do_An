@@ -21,7 +21,30 @@ public class UserDAO {
         }
         return conn;
     }
+    public static User handleLogin(String username, String password) {
+        String query = "SELECT * FROM users WHERE name = ? AND password = ?";
+        try (Connection c = openConnection(); PreparedStatement ps = c.prepareStatement(query)) {
 
+            ps.setString(1, username);
+            ps.setString(2, password);
+
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    return new User(
+                            rs.getString("name"),
+                            rs.getString("email"),
+                            rs.getString("mobileNumber"),
+                            rs.getString("address"),
+                            rs.getString("password")
+                    );
+                }
+            }
+        } catch (Exception ex) {
+            System.err.println("Error during login: " + ex.getMessage());
+            ex.printStackTrace(); 
+        }
+        return null; 
+    }
     public static boolean insertUser(User user) {
         try (Connection c = openConnection()) {
             String insert = "INSERT INTO USERS(name, email, mobileNumber, address, password) VALUES (?, ?, ?, ?, ?)";

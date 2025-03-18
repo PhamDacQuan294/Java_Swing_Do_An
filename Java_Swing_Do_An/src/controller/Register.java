@@ -83,7 +83,7 @@ public class Register extends javax.swing.JFrame {
         getContentPane().add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 340, 430, -1));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\save.png")); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,7 +93,7 @@ public class Register extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 490, -1, 40));
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/clear.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\clear.png")); // NOI18N
         jButton2.setText("Clear");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,7 +103,7 @@ public class Register extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 490, -1, 40));
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exit.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\exit.png")); // NOI18N
         jButton3.setText("Exit");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,6 +114,11 @@ public class Register extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton4.setText("Forgot Password?");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 550, -1, 40));
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -127,7 +132,7 @@ public class Register extends javax.swing.JFrame {
         txtPassword1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         getContentPane().add(txtPassword1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 390, 430, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/first page background.PNG"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\first page background.PNG")); // NOI18N
         jLabel7.setText("p");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1360, -1));
 
@@ -178,6 +183,10 @@ public class Register extends javax.swing.JFrame {
     private void txtConfimPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtConfimPasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtConfimPasswordActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+      
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
