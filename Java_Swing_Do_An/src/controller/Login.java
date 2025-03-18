@@ -64,7 +64,7 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 210, 380, -1));
 
-        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\login.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\login.png")); // NOI18N
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,7 +73,7 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 310, -1, -1));
 
-        jButton2.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\clear.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\close.png")); // NOI18N
         jButton2.setText("Clear");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,7 +82,7 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 310, -1, -1));
 
-        jButton3.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\exit small.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\exit.png")); // NOI18N
         jButton3.setText("Exit");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,7 +107,7 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 370, -1, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\first page background.PNG")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Java_Swing_Do_An\\Java_Swing_Do_An\\src\\images\\first page background.PNG")); // NOI18N
         jLabel4.setText("jLabel4");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 1410, 927));
 

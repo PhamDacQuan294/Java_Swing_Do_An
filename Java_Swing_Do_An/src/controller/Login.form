@@ -81,7 +81,7 @@
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\login.png"/>
+          <Image iconType="2" name="C:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\login.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Login"/>
       </Properties>
@@ -97,7 +97,7 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\clear.png"/>
+          <Image iconType="2" name="C:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\close.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Clear"/>
       </Properties>
@@ -113,7 +113,7 @@
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\exit small.png"/>
+          <Image iconType="2" name="C:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\exit.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Exit"/>
       </Properties>
@@ -155,7 +155,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\first page background.PNG"/>
+          <Image iconType="2" name="C:\Java_Swing_Do_An\Java_Swing_Do_An\src\images\first page background.PNG"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel4"/>
       </Properties>
