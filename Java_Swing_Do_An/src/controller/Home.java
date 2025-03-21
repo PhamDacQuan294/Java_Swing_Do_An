@@ -19,10 +19,12 @@ public class Home extends javax.swing.JFrame {
      */
     public Home() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     public Home(String userEmail) {
         initComponents();
+        setLocationRelativeTo(null);
         email = userEmail;
         if (!email.equals("admin@gmail.com")) {
             btnManage.setVisible(false);
